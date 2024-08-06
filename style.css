@@ -1,0 +1,610 @@
+@import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffffb3;
+  font-family: "Roboto", sans-serif;
+  background: #1b2316;
+}
+
+section {
+  background-image: url("./img/BackgroundImg.png");
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(20px);
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  bottom: 15px;
+  height: 18vh;
+}
+
+.logo img {
+  width: 100px;
+  transform: translateX(30px);
+}
+
+.logo p {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ffffffab;
+  font-size: 0.9rem;
+}
+
+.Icons {
+  transform: translateX(-50px);
+}
+
+.Icons img {
+  width: 20px;
+  padding-left: 50px;
+}
+
+main {
+  max-width: 1400px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.aloe-vera {
+  display: flex;
+  width: 80%;
+}
+
+.content h1 {
+  height: 29px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.Breath {
+  width: 70%;
+  height: 70px;
+}
+
+.explore {
+  display: flex;
+  gap: 20px;
+  height: 200px;
+}
+
+.btn1 {
+  width: 10%;
+  height: 40px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.Demo {
+  display: flex;
+  gap: 10px;
+  width: 20%;
+}
+
+.Demo p {
+  position: relative;
+  bottom: 3px;
+  font-size: 0.8rem;
+}
+
+.btn2 {
+  background: none;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  height: 37px;
+  width: 37px;
+}
+
+.btn2 img {
+  width: 15px;
+}
+
+.Info {
+  width: 39%;
+  height: 120px;
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+  background: #dddddd16;
+  backdrop-filter: blur(25px);
+  border: 1px solid #dddddd53;
+}
+
+.patel {
+  display: flex;
+  height: 40px;
+  gap: 18px;
+}
+
+.profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.card {
+  height: 400px;
+  width: 33%;
+  border-radius: 50px;
+  position: relative;
+  background: #dddddd16;
+  backdrop-filter: blur(20px);
+  border: 1px solid #dddddd53;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+  position: relative;
+  transform: translateY(-120px);
+  left: 10px;
+}
+
+.plants {
+  position: relative;
+  bottom: 120px;
+  left: 30px;
+}
+
+.Cathal {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.plants button {
+  width: 30%;
+  height: 40px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.Trendy {
+  height: 120px;
+}
+
+.Trendy h1 {
+  text-align: center;
+  font-size: 37px;
+}
+
+.flower {
+  display: flex;
+  height: 290px;
+  width: 90%;
+  background: #dddddd0b;
+  transform: translateX(70px);
+  border: 1px solid #dddddd53;
+  border-radius: 80px;
+  position: relative;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+}
+
+.flower img {
+  width: 90%;
+  position: relative;
+  bottom: 60%;
+}
+
+.Decs {
+  position: relative;
+  top: 20px;
+  right: 35px;
+  font-size: 15px;
+}
+
+.Decs p:nth-child(1) {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.Decs p:nth-child(3) {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.Decs button:nth-child(4) {
+  background: none;
+  border: 1px solid #fff;
+  width: 20%;
+  height: 38px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.buy {
+  border-radius: 4px;
+  background: none;
+  border: 1px solid #fff;
+  position: relative;
+  top: 8px;
+  left: 10px;
+  width: 41px;
+}
+
+.buy img {
+  width: 27px;
+}
+
+.flower-pot {
+  display: flex;
+  height: 290px;
+  width: 90%;
+  background: #dddddd16;
+  border: 1px solid #dddddd53;
+  transform: translateX(70px);
+  border-radius: 80px;
+  margin-top: 87px;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(60px);
+}
+
+.Aloe img {
+  width: 95%;
+  position: relative;
+  bottom: 50%;
+}
+
+.Decs-plant {
+  position: relative;
+  left: 10%;
+  top: 20px;
+}
+
+.Decs-plant p:nth-child(1) {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.Decs-plant p:nth-child(3) {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.Decs-plant button:nth-child(4) {
+  background: none;
+  border: 1px solid #fff;
+  width: 20%;
+  height: 38px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.width {
+  height: 400px;
+}
+
+.main {
+  background: #1b2316;
+}
+
+.text p {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.plant-con {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.child-plant {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  width: 70%;
+}
+
+.plant-card {
+  height: 370px;
+  width: 85%;
+  border: 1px solid #dddddd53;
+  border-radius: 40px;
+  margin-bottom: 40%;
+  background: #dddddd19;
+  backdrop-filter: blur(30px);
+}
+
+.plant-card img {
+  width: 137%;
+  position: relative;
+  bottom: 26%;
+  right: 60px;
+}
+
+.cherry {
+  position: relative;
+  bottom: 60%;
+  left: 20px;
+}
+
+.cherry p:nth-child(1) {
+  font-size: 1.4rem;
+}
+
+.cherry p:nth-child(2) {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.cherry p:nth-child(3) {
+  font-size: 1.4rem;
+}
+
+.Rs-item {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 29px;
+}
+
+.Rs-item button {
+  height: 30px;
+  width: 11%;
+  background: none;
+  border: 1px solid #ddd;
+  position: relative;
+  top: 18px;
+  border-radius: 5px;
+}
+
+.Rs-item button img {
+  width: 22px;
+  position: relative;
+  right: 3px;
+  top: 1px;
+}
+
+.C-text {
+  font-size: 2rem;
+  text-align: center;
+  height: 20vh;
+}
+
+.parent-C {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+
+.custom-card {
+  height: 34vh;
+  width: 23vw;
+  border: 1px solid #dddddd2f;
+  border-radius: 50px;
+  backdrop-filter: blur(20px);
+  background-color: #dddddd11;
+}
+
+.content-C {
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.custom-profile p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.custom-profile {
+  display: flex;
+  gap: 20px;
+  height: 10vh;
+}
+
+.custom-text {
+  width: 43vh;
+  font-size: 0.9rem;
+}
+
+.sub-02 {
+  text-align: center;
+  font-size: 2rem;
+  height: 27vh;
+}
+
+.Best-02 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-02 {
+  display: flex;
+  width: 90vw;
+  height: 60vh;
+  border: 1px solid #dddddd4c;
+  border-radius: 70px;
+  backdrop-filter: blur(20px);
+  background-color: #dddddd08;
+}
+
+.flow-02 img {
+  width: 80%;
+  position: relative;
+  bottom: 55%;
+}
+
+.text-02 {
+  width: 50vw;
+  position: relative;
+  right: 10%;
+  top: 10%;
+}
+
+.Collections {
+  font-size: 1.4rem;
+  height: 9vh;
+  color: #fff;
+}
+
+.small-02 {
+  font-size: 0.9rem;
+  height: 26vh;
+}
+
+.E-02 {
+  width: 22%;
+  height: 36px;
+  background: none;
+  border: 1px solid #fff;
+  color: #ffffffbd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #222c1d;
+  margin-top: 10%;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  width: 90vw;
+}
+
+.footer-L {
+  display: flex;
+}
+
+.footer-L img {
+  width: 130px;
+  position: relative;
+  top: 12px;
+}
+
+.footer-L p {
+  font-weight: bolder;
+  font-size: 2rem;
+  position: relative;
+  right: 40px;
+}
+
+.little-t {
+  width: 50vh;
+  position: relative;
+  left: 8%;
+  bottom: 27%;
+  font-size: 0.9rem;
+}
+
+.FBI {
+  font-weight: bolder;
+  position: relative;
+  left: 8%;
+  word-spacing: 20px;
+}
+
+.second-item p {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+  font-size: 0.9rem;
+  padding: 10px;
+  position: relative;
+  right: 40px;
+}
+
+.third-item p:nth-child(1) {
+  font-weight: bold;
+  height: 8vh;
+}
+
+
+.third-item input::placeholder {
+  color: #ffffffaa;
+  font-size: 0.8rem;
+  position: relative;
+  left: 8px;
+}
+
+.third-item button {
+  height: 33px;
+  font-weight: 400;
+  font-size: 12px;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+}
+
+.placeholder {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.placeholder input {
+  height: 30px;
+  width: 60%;
+  outline: none;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.copywrite {
+  font-size: 0.8rem;
+  position: relative;
+  top: 15vh;
+}
